@@ -1,0 +1,14 @@
+[
+{
+    "column_name": "capacity",
+    "no_of_bins": 10
+},
+{
+    "column_name": "quality",
+    "bin_size": 0.5
+},
+{
+    "column_name": "coverage",
+    "bin_list": [[0,0.2],[0.2,0.5],[0.5,1]]
+}
+]
