@@ -1,4 +1,4 @@
-# Project Repository for Reinforcement Learning Models
+# Project Repository for Verification of Reinforcement Learning Models: Comparing Construction of Environment Models
 
 Welcome to the repository for our Reinforcement Learning (RL) models and associated code. This repository is organized into the following sections:
 
