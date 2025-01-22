@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+gym
+tensorflow
+matplotlib
+math
+networkx
+PIL
+graphviz
