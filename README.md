@@ -1,0 +1,92 @@
+# Project Repository for Reinforcement Learning Models
+
+Welcome to the repository for our Reinforcement Learning (RL) models and associated code. This repository is organized into the following sections:
+
+## 1. Model
+
+This directory contains pre-trained models for various RL environments. Each environment has subdirectories for different modeling approaches and trained models.
+
+### Structure
+
+- **Cartpole**
+  - `Bayesian`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `PETS`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `Monte Carlo Dropout`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+
+- **Mountain Car**
+  - `Bayesian`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `PETS`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `Monte Carlo Dropout`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+
+- **Mountain Car Continuous**
+  - `Bayesian`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `PETS`
+    - Models trained on 10k, 20k, and 30k samples (`.pth` format)
+  - `Monte Carlo Dropout`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+
+- **Pendulum**
+  - `Bayesian`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `PETS`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+  - `Monte Carlo Dropout`
+    - Models trained on 10k, 20k, 30k, and 40k samples (`.pth` format)
+
+### Model Details
+Each model in the `.pth` format represents a neural network trained using one of the following methods:
+- **Bayesian**: Bayesian Neural Networks for uncertainty estimation.
+- **PETS**: Probabilistic Ensembles with Trajectory Sampling.
+- **Monte Carlo Dropout**: Models with uncertainty estimation using dropout during inference.
+
+## 2. Code
+
+The `Code` directory contains scripts and tools for training, evaluating, and visualizing the RL models. The following are the key components:
+
+- **Training Scripts**: Scripts to train models for each environment using Bayesian, PETS, or Monte Carlo Dropout approaches.
+- **Evaluation Scripts**: Scripts for testing and comparing model performance.
+- **Utilities**: Helper functions for data preprocessing, model saving/loading, and environment setup.
+- **Visualization**: Tools for plotting training curves, reward distributions, and other metrics.
+
+## Getting Started
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>
+   ```
+
+2. **Install Dependencies**:
+   Ensure you have Python 3.7+ and install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Navigate to Models**:
+   Explore the pre-trained models in the `Model` directory.
+
+4. **Run Training/Evaluation**:
+   Use the scripts in the `Code` directory to train or evaluate models. Example:
+   ```bash
+   python train_cartpole.py --method Bayesian --samples 10000
+   ```
+
+## Contributions
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Contact
+
+For any questions or feedback, please reach out via email or open an issue in the repository.
+
