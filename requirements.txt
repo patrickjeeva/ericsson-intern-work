@@ -8,3 +8,9 @@ math
 networkx
 PIL
 graphviz
+pickle
+sklearn
+z3-solver
+onnx
+onnxruntime
+onnx2keras
