@@ -14,3 +14,7 @@ z3-solver
 onnx
 onnxruntime
 onnx2keras
+mbrl
+hydra-core
+hydra
+omegaconf
