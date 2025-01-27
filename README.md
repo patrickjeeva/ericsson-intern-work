@@ -58,7 +58,7 @@ The `Code` directory contains scripts and tools for training, evaluating, and vi
 ### Structure
 
 - **Create_models**
-  - Creates all the PETS, Monte Carlo Dropout and Bayesian for 10k,.., 50k samples of all mentioned environments in one go.
+  - Creates all the PETS, Monte Carlo Dropout and Bayesian for 10k, 20k, 30k 40k, 50k samples of all mentioned environments in one go.
 - **Data-to-discretised-MDP**
   - Builds MDP with input as an data excel file and discretization.
 - **Discretization-of-columns**
