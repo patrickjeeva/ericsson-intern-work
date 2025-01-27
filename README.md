@@ -55,6 +55,14 @@ The `Code` directory contains scripts and tools for training, evaluating, and vi
 - **Utilities**: Helper functions for data preprocessing, model saving/loading, and environment setup.
 - **Visualization**: Tools for plotting training curves, reward distributions, and other metrics.
 
+### Structure
+
+- **Create_models** - Creates all the PETS, Monte Carlo Dropout and Bayesian for 10k,.., 50k samples of all mentioned environments in one go.
+- **Data-to-discretised-MDP** - Builds MDP with input as an data excel file and discretization.
+- **Discretization-of-columns** - Discretizes the given excel data file and stores it.
+- **PETS_env, monte_carlo_dropout_env, bayesian_env** - Creates their respective individual models.
+- **Sampling-from-MDP-multi-column, **
+
 ## Getting Started
 
 1. **Clone the Repository**:
@@ -73,10 +81,7 @@ The `Code` directory contains scripts and tools for training, evaluating, and vi
    Explore the pre-trained models in the `Model` directory.
 
 4. **Run Training/Evaluation**:
-   Use the scripts in the `Code` directory to train or evaluate models. Example:
-   ```bash
-   python train_cartpole.py --method Bayesian --samples 10000
-   ```
+   Use the scripts in the `Notebook` directory to train or evaluate models. Example : Create_models creates the models in one go.
 
 ## Contributions
 
