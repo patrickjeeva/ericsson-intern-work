@@ -86,6 +86,11 @@ The `Code` directory contains scripts and tools for training, evaluating, and vi
 - **state_var_graph**
   - Loads PETS, Monte Carlo Dropout, and Bayesian Neural Networks on mentioned RL environment using pre-trained to create next state variable graph.
 
+### Code Flow
+- Use **env_sample_generation** to create the ground truth samples.
+- **Create_models** is used to build all the models using the generated ground truth samples.
+- **generate_samples_from_models** generates samples from the models created.
+
 ## Getting Started
 
 1. **Clone the Repository**:
