@@ -71,8 +71,10 @@ The `Code` directory contains scripts and tools for training, evaluating, and vi
   - Generates random samples from MDPs and compare empirical transition probabilities of these samples with original MDP.
 - **env_sample_generation**
   - Generate 10k, 20k, 30k, 40k, 50k training samples from Cartpole, Mountain Car, Mountain Car Continuous and Pendulum Gym environments.
+  - This generates the samples using which the models are trained. Also ground truth MDPs are constructed using this.
 - **generate_samples_from_models**
   - Generate 10k, 20k, 30k, 40k, 50k training samples from different model architectures trained on Cartpole, Mountain Car, Mountain Car Continuous and Pendulum.
+  - This is going to be used to construct MDPs which can be compared with the ground truth.
 - **env_discretisedMDP**
   - Builds MDP based on discretized samples generated from mentioned Gym environment. Provides capability for MDP visualization.
 - **cartpole_discretisedMDP**
